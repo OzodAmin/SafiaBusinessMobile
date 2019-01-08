@@ -66,7 +66,7 @@ public class LoginActivity extends AppCompatActivity {
         setupRules();
 
         if(tokenManager.getToken().getAccessToken() != null){
-            startActivity(new Intent(LoginActivity.this, ProductsListActivity.class));
+            startActivity(new Intent(LoginActivity.this, ProductsActivity.class));
             finish();
         }
     }
@@ -105,7 +105,7 @@ public class LoginActivity extends AppCompatActivity {
 
                     if (response.isSuccessful()) {
                         tokenManager.saveToken(response.body());
-                        startActivity(new Intent(LoginActivity.this, ProductsListActivity.class));
+                        startActivity(new Intent(LoginActivity.this, ProductsActivity.class));
                         finish();
                     } else {
                         if (response.code() == 422) {

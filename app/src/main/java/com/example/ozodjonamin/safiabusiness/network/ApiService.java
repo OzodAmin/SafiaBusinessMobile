@@ -1,12 +1,13 @@
 package com.example.ozodjonamin.safiabusiness.network;
 
+import com.example.ozodjonamin.safiabusiness.Responses.ProductListResponse;
+import com.example.ozodjonamin.safiabusiness.entities.AccessToken;
+
 import retrofit2.Call;
 import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.GET;
 import retrofit2.http.POST;
-import com.example.ozodjonamin.safiabusiness.entities.AccessToken;
-import com.example.ozodjonamin.safiabusiness.entities.PostResponse;
 
 public interface ApiService {
 
@@ -18,7 +19,7 @@ public interface ApiService {
     @FormUrlEncoded
     Call<AccessToken> refresh(@Field("refresh_token") String refreshToken);
 
-    @GET("posts")
-    Call<PostResponse> posts();
+    @GET("products")
+    Call<ProductListResponse> products();
 
 }

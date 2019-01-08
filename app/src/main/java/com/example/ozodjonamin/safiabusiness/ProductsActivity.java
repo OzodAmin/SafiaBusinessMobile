@@ -6,6 +6,10 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
 
+import com.example.ozodjonamin.safiabusiness.Responses.ProductListResponse;
+import com.example.ozodjonamin.safiabusiness.network.ApiService;
+import com.example.ozodjonamin.safiabusiness.network.RetrofitBuilder;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -13,14 +17,10 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-import com.example.ozodjonamin.safiabusiness.Responses.ProductListResponse;
-import com.example.ozodjonamin.safiabusiness.network.ApiService;
-import com.example.ozodjonamin.safiabusiness.network.RetrofitBuilder;
-
-public class ProductsListActivity extends AppCompatActivity {
+public class ProductsActivity extends AppCompatActivity {
 
     private static final String TAG = "ProductsListActivity";
-    
+
     @BindView(R.id.post_title)
     TextView title;
 
@@ -28,20 +28,18 @@ public class ProductsListActivity extends AppCompatActivity {
     TokenManager tokenManager;
     Call<ProductListResponse> call;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_product_list);
+        setContentView(R.layout.activity_products);
 
         ButterKnife.bind(this);
         tokenManager = TokenManager.getInstance(getSharedPreferences("prefs", MODE_PRIVATE));
 
         if(tokenManager.getToken() == null){
-            startActivity(new Intent(ProductsListActivity.this, LoginActivity.class));
+            startActivity(new Intent(ProductsActivity.this, LoginActivity.class));
             finish();
         }
-
         service = RetrofitBuilder.createServiceWithAuth(ApiService.class, tokenManager);
     }
 
@@ -58,7 +56,7 @@ public class ProductsListActivity extends AppCompatActivity {
                     title.setText(response.body().getData().get(0).getTitle());
                 }else {
                     tokenManager.deleteToken();
-                    startActivity(new Intent(ProductsListActivity.this, LoginActivity.class));
+                    startActivity(new Intent(ProductsActivity.this, LoginActivity.class));
                     finish();
 
                 }
@@ -69,7 +67,6 @@ public class ProductsListActivity extends AppCompatActivity {
                 Log.w(TAG, "onFailure: " + t.getMessage() );
             }
         });
-
     }
 
     @Override
