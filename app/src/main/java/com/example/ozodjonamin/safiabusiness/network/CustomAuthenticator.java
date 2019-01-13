@@ -1,5 +1,7 @@
 package com.example.ozodjonamin.safiabusiness.network;
 
+import android.util.Log;
+
 import java.io.IOException;
 
 import javax.annotation.Nullable;
@@ -9,13 +11,14 @@ import okhttp3.Request;
 import okhttp3.Response;
 import okhttp3.Route;
 import retrofit2.Call;
-import com.example.ozodjonamin.safiabusiness.TokenManager;
-import com.example.ozodjonamin.safiabusiness.entities.AccessToken;
+import com.example.ozodjonamin.safiabusiness.manager.TokenManager;
+import com.example.ozodjonamin.safiabusiness.model.Token;
 
 public class CustomAuthenticator implements Authenticator {
 
     private TokenManager tokenManager;
     private static CustomAuthenticator INSTANCE;
+    private static final String TAG = "CustomAuthenticator";
 
     private CustomAuthenticator(TokenManager tokenManager){
         this.tokenManager = tokenManager;
@@ -38,14 +41,15 @@ public class CustomAuthenticator implements Authenticator {
             return null;
         }
 
-        AccessToken token = tokenManager.getToken();
+        Token token = tokenManager.getToken();
 
         ApiService service = RetrofitBuilder.createService(ApiService.class);
-        Call<AccessToken> call = service.refresh(token.getRefreshToken() + "a");
-        retrofit2.Response<AccessToken> res = call.execute();
+        Call<Token> call = service.refresh(token.getRefreshToken() + "a");
+        retrofit2.Response<Token> res = call.execute();
 
         if(res.isSuccessful()){
-            AccessToken newToken = res.body();
+            Token newToken = res.body();
+            Log.w(TAG, "onResponse: " + res);
             tokenManager.saveToken(newToken);
 
             return response.request().newBuilder().header("Authorization", "Bearer " + res.body().getAccessToken()).build();

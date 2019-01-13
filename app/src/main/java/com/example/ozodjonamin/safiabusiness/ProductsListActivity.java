@@ -12,8 +12,8 @@ import butterknife.OnClick;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
-
-import com.example.ozodjonamin.safiabusiness.Responses.ProductListResponse;
+import com.example.ozodjonamin.safiabusiness.entities.PostResponse;
+import com.example.ozodjonamin.safiabusiness.manager.TokenManager;
 import com.example.ozodjonamin.safiabusiness.network.ApiService;
 import com.example.ozodjonamin.safiabusiness.network.RetrofitBuilder;
 
@@ -26,7 +26,7 @@ public class ProductsListActivity extends AppCompatActivity {
 
     ApiService service;
     TokenManager tokenManager;
-    Call<ProductListResponse> call;
+    Call<PostResponse> call;
 
 
     @Override
@@ -48,24 +48,24 @@ public class ProductsListActivity extends AppCompatActivity {
     @OnClick(R.id.btn_posts)
     void getPosts(){
 
-        call = service.products();
-        call.enqueue(new Callback<ProductListResponse>() {
+        call = service.posts();
+        call.enqueue(new Callback<PostResponse>() {
             @Override
-            public void onResponse(Call<ProductListResponse> call, Response<ProductListResponse> response) {
+            public void onResponse(Call<PostResponse> call, Response<PostResponse> response) {
                 Log.w(TAG, "onResponse: " + response );
 
-                if(response.isSuccessful()){
-                    title.setText(response.body().getData().get(0).getTitle());
-                }else {
-                    tokenManager.deleteToken();
-                    startActivity(new Intent(ProductsListActivity.this, LoginActivity.class));
-                    finish();
-
-                }
+//                if(response.isSuccessful()){
+//                    title.setText(response.body().getData().get(0).getTitle());
+//                }else {
+//                    tokenManager.deleteToken();
+//                    startActivity(new Intent(ProductsListActivity.this, LoginActivity.class));
+//                    finish();
+//
+//                }
             }
 
             @Override
-            public void onFailure(Call<ProductListResponse> call, Throwable t) {
+            public void onFailure(Call<PostResponse> call, Throwable t) {
                 Log.w(TAG, "onFailure: " + t.getMessage() );
             }
         });

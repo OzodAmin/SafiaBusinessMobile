@@ -4,4 +4,7 @@
     <color name="colorPrimaryDark">#232323</color>
     <color name="colorAccent">#ff7c48</color>
     <color name="textInputErrorColor">#ff3737</color>
+    <color name="white">#ffffff</color>
+
+    <color name="overlayBackground">#7f333639</color>
 </resources>

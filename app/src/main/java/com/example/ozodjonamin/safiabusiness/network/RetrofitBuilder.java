@@ -1,5 +1,6 @@
 package com.example.ozodjonamin.safiabusiness.network;
 
+import com.example.ozodjonamin.safiabusiness.entities.Common;
 import com.facebook.stetho.okhttp3.StethoInterceptor;
 
 import java.io.IOException;
@@ -11,11 +12,9 @@ import okhttp3.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.moshi.MoshiConverterFactory;
 import com.example.ozodjonamin.safiabusiness.BuildConfig;
-import com.example.ozodjonamin.safiabusiness.TokenManager;
+import com.example.ozodjonamin.safiabusiness.manager.TokenManager;
 
 public class RetrofitBuilder {
-
-    private static final String BASE_URL = "http://192.168.1.103:8080/api/";
 
     private final static OkHttpClient client = buildClient();
     private final static Retrofit retrofit = buildRetrofit(client);
@@ -48,7 +47,7 @@ public class RetrofitBuilder {
 
     private static Retrofit buildRetrofit(OkHttpClient client){
         return new Retrofit.Builder()
-                .baseUrl(BASE_URL)
+                .baseUrl(Common.BASE_URL)
                 .client(client)
                 .addConverterFactory(MoshiConverterFactory.create())
                 .build();

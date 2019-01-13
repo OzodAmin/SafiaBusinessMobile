@@ -1,8 +1,8 @@
-package com.example.ozodjonamin.safiabusiness.entities;
+package com.example.ozodjonamin.safiabusiness.model;
 
 import com.squareup.moshi.Json;
 
-public class AccessToken {
+public class Token {
 
     @Json(name = "token_type")
     String tokenType;

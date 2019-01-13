@@ -1,11 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Safia Business</string>
 
     <!-- validation Errors -->
-    <string name="err_name">The name field is required.</string>
-    <string name="login">Login</string>
-    <string name="err_email">The email must be a valid email address.</string>
-    <string name="err_password">The password must be at least 6 characters.</string>
+    <string name="err_name">Login majburiy.</string>
+    <string name="login">Kirish</string>
+    <string name="err_email">To\'g\'ri emailni kiriting.</string>
+    <string name="err_password">Mahfiy so\'z noto\'g\'ri.</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
