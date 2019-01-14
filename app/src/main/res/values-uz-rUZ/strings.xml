@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Safia Business</string>
+    <string name="title_activity_product">Product List</string>
 
     <!-- validation Errors -->
     <string name="err_name">Login majburiy.</string>

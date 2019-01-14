@@ -1,6 +1,8 @@
 package com.example.ozodjonamin.safiabusiness;
 
+import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
@@ -113,7 +115,10 @@ public class MainActivity extends AppCompatActivity
         listCategories.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
         listCategories.setHasFixedSize(true);
 
-        callCategory = service.categories();
+        SharedPreferences prefs = getSharedPreferences("Settings", Activity.MODE_PRIVATE);
+        String language = prefs.getString("App_Lang", "ru");
+
+        callCategory = service.categories(language);
         callCategory.enqueue(new Callback<List<Category>>() {
             @Override
             public void onResponse(Call<List<Category>> call, Response<List<Category>> response) {

@@ -1,17 +1,17 @@
 package com.example.ozodjonamin.safiabusiness.network;
 
+import com.example.ozodjonamin.safiabusiness.model.Category;
+import com.example.ozodjonamin.safiabusiness.model.Product;
+import com.example.ozodjonamin.safiabusiness.model.Token;
+import com.example.ozodjonamin.safiabusiness.model.User;
+
+import java.util.List;
+
 import retrofit2.Call;
 import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.GET;
 import retrofit2.http.POST;
-
-import com.example.ozodjonamin.safiabusiness.model.Category;
-import com.example.ozodjonamin.safiabusiness.model.Token;
-import com.example.ozodjonamin.safiabusiness.entities.PostResponse;
-import com.example.ozodjonamin.safiabusiness.model.User;
-
-import java.util.List;
 
 public interface ApiService {
 
@@ -26,9 +26,11 @@ public interface ApiService {
     @GET("user")
     Call<User> getUserInformation();
 
-    @GET("posts")
-    Call<PostResponse> posts();
+    @POST("categories")
+    @FormUrlEncoded
+    Call<List<Category>> categories(@Field("lang") String lang);
 
-    @GET("categories")
-    Call<List<Category>> categories();
+    @POST("productsCat")
+    @FormUrlEncoded
+    Call<List<Product>> products(@Field("cat_id") String catId, @Field("lang") String lang);
 }
