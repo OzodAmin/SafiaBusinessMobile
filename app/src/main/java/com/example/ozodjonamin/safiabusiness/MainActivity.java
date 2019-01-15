@@ -21,6 +21,10 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.example.ozodjonamin.safiabusiness.adapter.CategoryAdapter;
+import com.example.ozodjonamin.safiabusiness.database.dataSource.CartRepository;
+import com.example.ozodjonamin.safiabusiness.database.local.CartDataSource;
+import com.example.ozodjonamin.safiabusiness.database.local.CartDatabase;
+import com.example.ozodjonamin.safiabusiness.entities.Common;
 import com.example.ozodjonamin.safiabusiness.manager.TokenManager;
 import com.example.ozodjonamin.safiabusiness.manager.UserManager;
 import com.example.ozodjonamin.safiabusiness.model.Category;
@@ -70,6 +74,9 @@ public class MainActivity extends AppCompatActivity
         getUser();
         getCategories();
 
+        //Initialise database
+        initDB();
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -87,6 +94,11 @@ public class MainActivity extends AppCompatActivity
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
+    }
+
+    private void initDB() {
+        Common.cartDatabase = CartDatabase.getInsstance(this);
+        Common.cartRepository = CartRepository.getInstance(CartDataSource.getInstance(Common.cartDatabase.cartDAO()));
     }
 
     private void getUser() {

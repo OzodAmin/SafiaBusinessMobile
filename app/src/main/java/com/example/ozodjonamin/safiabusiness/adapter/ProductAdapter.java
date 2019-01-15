@@ -2,15 +2,18 @@ package com.example.ozodjonamin.safiabusiness.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
 import com.example.ozodjonamin.safiabusiness.R;
+import com.example.ozodjonamin.safiabusiness.database.modelDatabase.Cart;
 import com.example.ozodjonamin.safiabusiness.entities.Common;
 import com.example.ozodjonamin.safiabusiness.entities.IItemClickListener;
 import com.example.ozodjonamin.safiabusiness.model.Product;
+import com.google.gson.Gson;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
@@ -32,7 +35,7 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductViewHolder> {
     }
 
     @Override
-    public void onBindViewHolder(ProductViewHolder holder, int position) {
+    public void onBindViewHolder(final ProductViewHolder holder, final int position) {
 
         holder.txtPrice.setText(new StringBuilder("$ ").append(productList.get(position).price).toString());
         holder.txtName.setText(productList.get(position).title);
@@ -45,6 +48,28 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductViewHolder> {
             @Override
             public void onClick(View v) {
                 Toast.makeText(context, "Clicked", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        holder.btnAddToCart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try {
+                    //Create new cart
+                    Cart cartProduct = new Cart();
+                    cartProduct.productName = holder.txtName.getText().toString();
+                    cartProduct.product_id = productList.get(position).id;
+                    cartProduct.price = productList.get(position).price;
+                    cartProduct.amount = 1;
+
+                    //Add to Cart table
+                    Common.cartRepository.insertToCart(cartProduct);
+
+                    Log.w("Cart insert", new Gson().toJson(cartProduct));
+                    Toast.makeText(context, "Product successfully added to cart", Toast.LENGTH_SHORT).show();
+                }catch (Exception ex){
+                    Toast.makeText(context, ex.getMessage(), Toast.LENGTH_SHORT).show();
+                }
             }
         });
     }

@@ -1,8 +1,14 @@
 package com.example.ozodjonamin.safiabusiness.entities;
 
+import com.example.ozodjonamin.safiabusiness.database.dataSource.CartRepository;
+import com.example.ozodjonamin.safiabusiness.database.local.CartDatabase;
 import com.example.ozodjonamin.safiabusiness.model.Category;
 
 public class Common {
+    //Database
+    public static CartDatabase cartDatabase;
+    public static CartRepository cartRepository;
+
     public static Category currentCategory = null;
 
     // URL FOR EMULATOR
