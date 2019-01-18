@@ -20,6 +20,9 @@ public class Cart {
     @ColumnInfo(name = "name")
     public String productName;
 
+    @ColumnInfo(name = "image")
+    public String productImage;
+
     @ColumnInfo(name = "amount")
     public int amount;
 

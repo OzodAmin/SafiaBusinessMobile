@@ -61,6 +61,7 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductViewHolder> {
                     cartProduct.product_id = productList.get(position).id;
                     cartProduct.price = productList.get(position).price;
                     cartProduct.amount = 1;
+                    cartProduct.productImage = Common.PRODUCT_THUMB_IMAGE_URL + productList.get(position).image;
 
                     //Add to Cart table
                     Common.cartRepository.insertToCart(cartProduct);

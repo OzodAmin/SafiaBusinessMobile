@@ -12,11 +12,11 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2">
+        android:layout_weight="1">
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="90dp"
             android:scaleType="fitXY"
             android:src="@drawable/category_bg" />
 
@@ -36,7 +36,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_margin="8dp"
-        android:layout_weight="6">
+        android:layout_weight="7">
 
     </android.support.v7.widget.RecyclerView>
 
