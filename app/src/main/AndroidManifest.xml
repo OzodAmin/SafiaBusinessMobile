@@ -26,7 +26,8 @@
             android:name=".ProductActivity"
             android:label="@string/title_activity_product"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".CartActivity"></activity>
+        <activity android:name=".CartActivity" />
+        <activity android:name=".FavouriteListActivity"></activity>
     </application>
 
 </manifest>

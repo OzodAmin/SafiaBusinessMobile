@@ -38,9 +38,10 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.CartViewHolder
                 .load(cartList.get(position).productImage)
                 .into(holder.imgProduct);
 
+        String price = cartList.get(position).price + " Cум / " + cartList.get(position).productMeasure;
         holder.countProduct.setNumber(String.valueOf(cartList.get(position).amount));
         holder.nameProduct.setText(cartList.get(position).productName);
-        holder.priceProduct.setText(String.valueOf(cartList.get(position).price) + " Сум");
+        holder.priceProduct.setText(price);
 
         holder.countProduct.setOnValueChangeListener(new ElegantNumberButton.OnValueChangeListener() {
             @Override

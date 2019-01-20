@@ -1,6 +1,8 @@
 package com.example.ozodjonamin.safiabusiness;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -17,6 +19,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.andremion.counterfab.CounterFab;
 import com.example.ozodjonamin.safiabusiness.adapter.CategoryAdapter;
@@ -27,6 +30,7 @@ import com.example.ozodjonamin.safiabusiness.entities.Common;
 import com.example.ozodjonamin.safiabusiness.manager.TokenManager;
 import com.example.ozodjonamin.safiabusiness.manager.UserManager;
 import com.example.ozodjonamin.safiabusiness.model.Category;
+import com.example.ozodjonamin.safiabusiness.model.Favourites;
 import com.example.ozodjonamin.safiabusiness.model.User;
 import com.example.ozodjonamin.safiabusiness.network.ApiService;
 import com.example.ozodjonamin.safiabusiness.network.RetrofitBuilder;
@@ -53,6 +57,8 @@ public class MainActivity extends AppCompatActivity
     CounterFab fab;
     UserManager userManager;
     TokenManager tokenManager;
+
+    Call<List<Favourites>> callFavouriteIds;
     Call<User> callUser;
     Call<List<Category>> callCategory;
     RecyclerView listCategories;
@@ -68,6 +74,7 @@ public class MainActivity extends AppCompatActivity
 
         ButterKnife.bind(this);
         tokenManager = TokenManager.getInstance(getSharedPreferences("prefs", MODE_PRIVATE));
+        Common.tokenManager = tokenManager;
         userManager = UserManager.getInstance(getSharedPreferences("user", MODE_PRIVATE));
         service = RetrofitBuilder.createServiceWithAuth(ApiService.class, tokenManager);
 
@@ -77,6 +84,7 @@ public class MainActivity extends AppCompatActivity
         }
 
         getUser();
+        getFavouritesIds();
         getCategories();
         //Initialise database
         initDB();
@@ -123,6 +131,22 @@ public class MainActivity extends AppCompatActivity
         });
     }
 
+    private void getFavouritesIds() {
+        callFavouriteIds = service.favouriteIds();
+        callFavouriteIds.enqueue(new Callback<List<Favourites>>() {
+            @Override
+            public void onResponse(Call<List<Favourites>> call, Response<List<Favourites>> response) {
+                Log.w(TAG, "onResponse: " + response);
+                Common.favouritesList = response.body();
+            }
+
+            @Override
+            public void onFailure(Call<List<Favourites>> call, Throwable t) {
+                Log.w(TAG, "onFailure: " + t.getMessage());
+            }
+        });
+    }
+
     private void getCategories() {
         listCategories = (RecyclerView) findViewById(R.id.list_category);
         listCategories.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
@@ -149,16 +173,6 @@ public class MainActivity extends AppCompatActivity
     private void displayCategories(List<Category> categories) {
         CategoryAdapter adapter = new CategoryAdapter(this, categories);
         listCategories.setAdapter(adapter);
-    }
-
-    @Override
-    public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        if (drawer.isDrawerOpen(GravityCompat.START)) {
-            drawer.closeDrawer(GravityCompat.START);
-        } else {
-            super.onBackPressed();
-        }
     }
 
     @Override
@@ -198,14 +212,12 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
-
+        if (id == R.id.logout) {
+            logout();
         } else if (id == R.id.nav_cart) {
             showCartAcrivity();
+        }else if (id == R.id.nav_favourites){
+            startActivity(new Intent(MainActivity.this, FavouriteListActivity.class));
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -213,9 +225,55 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
+    private void logout() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Exit application");
+        builder.setMessage("Do you want to exit this application?");
+
+        builder.setNegativeButton("OK", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                Common.cartRepository.emptyCart();
+                tokenManager.deleteToken();
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        builder.setPositiveButton("CANCEL", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
+            }
+        });
+        builder.show();
+    }
+
     @Override
     protected void onResume() {
         super.onResume();
         updateCartCount();
+
+        isBackBtnClicked = false;
+    }
+
+    //Exit
+    boolean isBackBtnClicked = false;
+
+    @Override
+    public void onBackPressed() {
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        if (drawer.isDrawerOpen(GravityCompat.START)) {
+            drawer.closeDrawer(GravityCompat.START);
+        } else {
+            if (isBackBtnClicked) {
+                super.onBackPressed();
+                return;
+            }
+            this.isBackBtnClicked = true;
+            Toast.makeText(this, "Please click BACK again to exit", Toast.LENGTH_SHORT).show();
+        }
     }
 }

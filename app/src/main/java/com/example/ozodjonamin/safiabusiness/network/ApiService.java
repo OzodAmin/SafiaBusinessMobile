@@ -1,6 +1,7 @@
 package com.example.ozodjonamin.safiabusiness.network;
 
 import com.example.ozodjonamin.safiabusiness.model.Category;
+import com.example.ozodjonamin.safiabusiness.model.Favourites;
 import com.example.ozodjonamin.safiabusiness.model.Product;
 import com.example.ozodjonamin.safiabusiness.model.Token;
 import com.example.ozodjonamin.safiabusiness.model.User;
@@ -33,4 +34,19 @@ public interface ApiService {
     @POST("productsCat")
     @FormUrlEncoded
     Call<List<Product>> products(@Field("cat_id") String catId, @Field("lang") String lang);
+
+    @POST("getFavorites")
+    @FormUrlEncoded
+    Call<List<Product>> getFavorites(@Field("lang") String lang);
+
+    @GET("favouriteProductsIds")
+    Call<List<Favourites>> favouriteIds();
+
+    @POST("addProductToFavourite")
+    @FormUrlEncoded
+    Call<Favourites> addProductToFavourite(@Field("product_id") int id);
+
+    @POST("removeProductFromFavourite")
+    @FormUrlEncoded
+    Call<Favourites> removeProductFromFavourite(@Field("product_id") int id);
 }

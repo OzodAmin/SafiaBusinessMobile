@@ -20,6 +20,9 @@ public class Cart {
     @ColumnInfo(name = "name")
     public String productName;
 
+    @ColumnInfo(name = "measure")
+    public String productMeasure;
+
     @ColumnInfo(name = "image")
     public String productImage;
 
@@ -27,5 +30,5 @@ public class Cart {
     public int amount;
 
     @ColumnInfo(name = "price")
-    public double price;
+    public int price;
 }
