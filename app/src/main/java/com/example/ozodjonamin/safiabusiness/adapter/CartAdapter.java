@@ -6,6 +6,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.cepheuen.elegantnumberbutton.view.ElegantNumberButton;
@@ -59,11 +61,14 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.CartViewHolder
         return cartList.size();
     }
 
-    class CartViewHolder extends RecyclerView.ViewHolder{
+    public class CartViewHolder extends RecyclerView.ViewHolder{
 
         ImageView imgProduct;
         TextView nameProduct, priceProduct;
         ElegantNumberButton countProduct;
+
+        public RelativeLayout viewBackground;
+        public LinearLayout viewForeground;
 
         public CartViewHolder(View itemView) {
             super(itemView);
@@ -72,6 +77,19 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.CartViewHolder
             nameProduct = (TextView) itemView.findViewById(R.id.txt_product_name);
             priceProduct = (TextView) itemView.findViewById(R.id.txt_product_price);
             countProduct = (ElegantNumberButton) itemView.findViewById(R.id.txt_product_count);
+
+            viewBackground = (RelativeLayout) itemView.findViewById(R.id.delete_background);
+            viewForeground = (LinearLayout) itemView.findViewById(R.id.view_foreground);
         }
+    }
+
+    public void removeProduct(int position){
+        cartList.remove(position);
+        notifyItemRemoved(position);
+    }
+
+    public void restoreProduct(Cart product, int position) {
+        cartList.add(position, product);
+        notifyItemInserted(position);
     }
 }

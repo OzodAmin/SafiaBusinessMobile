@@ -12,7 +12,7 @@ import com.example.ozodjonamin.safiabusiness.entities.IItemClickListener;
 
 public class FavouriteViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
-    ImageView imgProduct;
+    ImageView imgProduct, btnAddToCart;
     TextView txtName, txtPrice;
     IItemClickListener itemClickListener;
 
@@ -23,6 +23,7 @@ public class FavouriteViewHolder extends RecyclerView.ViewHolder implements View
         super(itemView);
 
         imgProduct = (ImageView) itemView.findViewById(R.id.img_fv_product);
+        btnAddToCart = (ImageView) itemView.findViewById(R.id.btn_add_to_cart);
         txtName = (TextView) itemView.findViewById(R.id.txt_fv_product_name);
         txtPrice = (TextView) itemView.findViewById(R.id.txt_fv_product_price);
 
