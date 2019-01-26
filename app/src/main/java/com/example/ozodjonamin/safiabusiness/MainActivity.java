@@ -201,6 +201,9 @@ public class MainActivity extends AppCompatActivity
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
+        }else if (id == R.id.action_search) {
+            startActivity(new Intent(MainActivity.this, SearchActivity.class));
+            return true;
         }
 
         return super.onOptionsItemSelected(item);
@@ -216,6 +219,8 @@ public class MainActivity extends AppCompatActivity
             logout();
         } else if (id == R.id.nav_cart) {
             showCartAcrivity();
+        }else if (id == R.id.nav_orders) {
+            startActivity(new Intent(MainActivity.this, OrdersListActivity.class));
         }else if (id == R.id.nav_favourites){
             startActivity(new Intent(MainActivity.this, FavouriteListActivity.class));
         }

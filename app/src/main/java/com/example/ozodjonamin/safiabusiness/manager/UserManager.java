@@ -26,12 +26,14 @@ public class UserManager {
     public void saveUser(User user){
         editor.putString("USER_NAME", user.getName()).commit();
         editor.putString("USER_EMAIL", user.getEmail()).commit();
+        editor.putInt("USER_DISCOUNT", user.getDiscount()).commit();
     }
 
     public User getUserInformation(){
         User userModel = new User();
         userModel.setName(user.getString("USER_NAME", null));
         userModel.setEmail(user.getString("USER_EMAIL", null));
+        userModel.setDiscount(user.getInt("USER_DISCOUNT", 0));
         return userModel;
     }
 }
