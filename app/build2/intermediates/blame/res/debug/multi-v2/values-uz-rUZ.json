@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\OzodjonAmin\\AndroidStudioProjects\\SafiaBusiness\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-uz-rUZ\\values-uz-rUZ.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\OzodjonAmin\\AndroidStudioProjects\\SafiaBusiness\\app\\src\\main\\res\\values-uz-rUZ\\strings.xml",
+                    "from": {
+                        "startLines": "16,2,8,6,9,7,15,14,13,12,11,10,3",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "854,57,305,209,372,263,791,715,654,577,502,440,110",
+                        "endColumns": "52,51,65,52,66,40,61,74,59,75,73,60,63",
+                        "endOffsets": "902,104,366,257,434,299,848,785,709,648,571,496,169"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,108,160,226,279,346,387,449,524,584,660,734,795",
+                        "endColumns": "52,51,65,52,66,40,61,74,59,75,73,60,63",
+                        "endOffsets": "103,155,221,274,341,382,444,519,579,655,729,790,854"
+                    }
+                }
+            ]
+        }
+    ]
+}

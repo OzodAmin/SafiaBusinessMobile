@@ -1,0 +1,420 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:2:1-35:12
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\68472aaaa6285d48626dabcfe66d6128\AndroidManifest.xml:17:1-57:12
+MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\lib-1.0.2.aar\6cd4404cd968f5b3253f0ea0c0270e1d\AndroidManifest.xml:2:1-19:12
+MERGED from [com.nex3z:notification-badge:1.0.2] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\notification-badge-1.0.2.aar\a27aebc6887f964cb3413374780bb492\AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.mancj:MaterialSearchBar:0.8.2] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\MaterialSearchBar-0.8.2.aar\4636772e31aa2ce52cc31dd45bd34231\AndroidManifest.xml:2:1-17:12
+MERGED from [com.facebook.android:facebook-android-sdk:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.40.0.aar\8fdd304f0d84eaabbd781ed2f2fd4e59\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-login:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-login-4.40.0.aar\739485f30cb6223faa6208486494c487\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-share:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-share-4.40.0.aar\8a3edd56b0bfc806b7dc369bcebf5296\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-common-4.40.0.aar\56ee6431f1f9bed772aa1151f116b254\AndroidManifest.xml:21:1-37:12
+MERGED from [com.basgeekball:awesome-validation:2.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\awesome-validation-2.0.aar\e19fe608afcbe4d5f2d6291f7b31ec44\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.andremion:counterfab:1.0.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\counterfab-1.0.1.aar\eb75e41ce9eb11fa4715a3a33480bc76\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:design:26.1.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\b84f5f18a639404b150e68ad592e5c22\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\e17da74b5247e13da8f7067b3d0200f8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\ab5ae84257819e181aba8835b137de4f\AndroidManifest.xml:2:1-11:12
+MERGED from [com.jakewharton:butterknife:8.6.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\butterknife-8.6.0.aar\b7c3f4f9a27890879c15c4c3b827a80d\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.stetho:stetho-okhttp3:1.5.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\stetho-okhttp3-1.5.0.aar\b834f110bfe026ce59528ea134c85512\AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.stetho:stetho:1.5.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\stetho-1.5.0.aar\33237fd38f67e691fae57ecf3ee52485\AndroidManifest.xml:2:1-13:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\54c6d432471ef4999ae6cf67e47868de\AndroidManifest.xml:15:1-21:12
+MERGED from [android.arch.persistence.room:rxjava2:1.1.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\rxjava2-1.1.0.aar\83a6569a753de107c3916b60c8ce7218\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence.room:runtime:1.1.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\efc785c6577dec01cad450f22d5686cd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-places:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-places-4.40.0.aar\d3c943ef6b08e1fe5a71aa7dc32fcb2c\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-applinks:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-applinks-4.40.0.aar\fbd3c6b83c6c5f30ea3f99464c8c6b2d\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-messenger:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-messenger-4.40.0.aar\e06d371e440020a30bb748bce8f567df\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-marketing:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.40.0.aar\aab374272213b328515198d535ea1d43\AndroidManifest.xml:21:1-35:12
+MERGED from [com.facebook.android:facebook-core:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\889ce3a3f6184e675d954da25549289a\AndroidManifest.xml:21:1-53:12
+MERGED from [android.arch.persistence:db-framework:1.1.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\db-framework-1.1.0.aar\42c0fd69e61aac1634325bb2aab85708\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db:1.1.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\db-1.1.0.aar\39b7ff8cab9450d6160632187f45d948\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:26.1.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\9b8ca702e45fc557f26131f47809dcfa\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\9994f6a9ec69643509cbd82840e52d9d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\5f13c1103a5c516c897a681d4266b5af\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\55a8cf84c5418051366fd518adf038b7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\2fdae794da2bbcc49ec540c77744092c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\b14152c010d618e88c272657f70aaa85\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\b4973f8232192896c6ef2fd096e28f98\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\c08db204d12be1b4c54d705279c234b6\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\3789b8261d569ad7487231eada6decd2\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\25b1d044dbcf64f4d97402bdaf7ad6b5\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\4a92296c2994f155a3de4d27997b49d0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\635339b6c2572ec706dec6ee2167dd8a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\88514fb0ee94e98474732acef3ce9f49\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\1f726ed46db92d62f78b7361fefe821f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\c9b65042df16e0bae1bcc10dee636473\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\b87ef6c9df588e3373c6dd3aaae4681c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\6b62eff76853d9cfb589a4ac988fc003\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\27d3de943996e86d0a96a9cc92cd444a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\d5b161fdadd99f02a11a163676b7d55e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\b1315c9be6b9aa14283321c59793b8b8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\be8e038645282ccc250e52efd6045575\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\66250ce73eca58ba1a2eb2e24babcb96\AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\5e57b7cdfc09417fb7f016baf8fd6131\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\cc0597db382e1d87e429a127deef3230\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\99b7443f5547c46054b98cab91fb0f83\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\7087c3e95e1aadabe5d6318667748944\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\ad8be6e4785efbf7aa797ee8a8069466\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\adbdbee8206786b0aab8a4090e135469\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\0096957ad2ea0a82c5afd1f466583e11\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\aa8136f84db3dc9d45fe6b22023c9689\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\1cdd421b8b972bf496ad8b99920c7837\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:2:1-35:12
+	package
+		ADDED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:3:5-52
+		INJECTED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:2:1-35:12
+		INJECTED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:2:1-35:12
+		INJECTED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:7:5-33:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\68472aaaa6285d48626dabcfe66d6128\AndroidManifest.xml:26:5-55:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\68472aaaa6285d48626dabcfe66d6128\AndroidManifest.xml:26:5-55:19
+MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\lib-1.0.2.aar\6cd4404cd968f5b3253f0ea0c0270e1d\AndroidManifest.xml:11:5-17:19
+MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\lib-1.0.2.aar\6cd4404cd968f5b3253f0ea0c0270e1d\AndroidManifest.xml:11:5-17:19
+MERGED from [com.nex3z:notification-badge:1.0.2] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\notification-badge-1.0.2.aar\a27aebc6887f964cb3413374780bb492\AndroidManifest.xml:11:5-20
+MERGED from [com.nex3z:notification-badge:1.0.2] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\notification-badge-1.0.2.aar\a27aebc6887f964cb3413374780bb492\AndroidManifest.xml:11:5-20
+MERGED from [com.github.mancj:MaterialSearchBar:0.8.2] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\MaterialSearchBar-0.8.2.aar\4636772e31aa2ce52cc31dd45bd34231\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.mancj:MaterialSearchBar:0.8.2] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\MaterialSearchBar-0.8.2.aar\4636772e31aa2ce52cc31dd45bd34231\AndroidManifest.xml:11:5-15:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.40.0.aar\8fdd304f0d84eaabbd781ed2f2fd4e59\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.40.0.aar\8fdd304f0d84eaabbd781ed2f2fd4e59\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-login-4.40.0.aar\739485f30cb6223faa6208486494c487\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-login-4.40.0.aar\739485f30cb6223faa6208486494c487\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-share-4.40.0.aar\8a3edd56b0bfc806b7dc369bcebf5296\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-share-4.40.0.aar\8a3edd56b0bfc806b7dc369bcebf5296\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-common-4.40.0.aar\56ee6431f1f9bed772aa1151f116b254\AndroidManifest.xml:28:5-35:19
+MERGED from [com.facebook.android:facebook-common:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-common-4.40.0.aar\56ee6431f1f9bed772aa1151f116b254\AndroidManifest.xml:28:5-35:19
+MERGED from [com.github.andremion:counterfab:1.0.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\counterfab-1.0.1.aar\eb75e41ce9eb11fa4715a3a33480bc76\AndroidManifest.xml:12:5-20
+MERGED from [com.github.andremion:counterfab:1.0.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\counterfab-1.0.1.aar\eb75e41ce9eb11fa4715a3a33480bc76\AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:design:26.1.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\b84f5f18a639404b150e68ad592e5c22\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\b84f5f18a639404b150e68ad592e5c22\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\ab5ae84257819e181aba8835b137de4f\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\ab5ae84257819e181aba8835b137de4f\AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.stetho:stetho-okhttp3:1.5.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\stetho-okhttp3-1.5.0.aar\b834f110bfe026ce59528ea134c85512\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.stetho:stetho-okhttp3:1.5.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\stetho-okhttp3-1.5.0.aar\b834f110bfe026ce59528ea134c85512\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\stetho-1.5.0.aar\33237fd38f67e691fae57ecf3ee52485\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\stetho-1.5.0.aar\33237fd38f67e691fae57ecf3ee52485\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.android:facebook-places:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-places-4.40.0.aar\d3c943ef6b08e1fe5a71aa7dc32fcb2c\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-places:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-places-4.40.0.aar\d3c943ef6b08e1fe5a71aa7dc32fcb2c\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-applinks-4.40.0.aar\fbd3c6b83c6c5f30ea3f99464c8c6b2d\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-applinks-4.40.0.aar\fbd3c6b83c6c5f30ea3f99464c8c6b2d\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-messenger-4.40.0.aar\e06d371e440020a30bb748bce8f567df\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-messenger-4.40.0.aar\e06d371e440020a30bb748bce8f567df\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-marketing:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.40.0.aar\aab374272213b328515198d535ea1d43\AndroidManifest.xml:28:5-33:19
+MERGED from [com.facebook.android:facebook-marketing:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.40.0.aar\aab374272213b328515198d535ea1d43\AndroidManifest.xml:28:5-33:19
+MERGED from [com.facebook.android:facebook-core:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\889ce3a3f6184e675d954da25549289a\AndroidManifest.xml:28:5-51:19
+MERGED from [com.facebook.android:facebook-core:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\889ce3a3f6184e675d954da25549289a\AndroidManifest.xml:28:5-51:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\9b8ca702e45fc557f26131f47809dcfa\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\9b8ca702e45fc557f26131f47809dcfa\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\66250ce73eca58ba1a2eb2e24babcb96\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\66250ce73eca58ba1a2eb2e24babcb96\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\cc0597db382e1d87e429a127deef3230\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\cc0597db382e1d87e429a127deef3230\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\66250ce73eca58ba1a2eb2e24babcb96\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:13:9-40
+activity#com.example.ozodjonamin.safiabusiness.LoginActivity
+ADDED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:14:19-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:18:27-74
+activity#com.example.ozodjonamin.safiabusiness.MainActivity
+ADDED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:21:9-24:59
+	android:label
+		ADDED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:23:13-56
+	android:theme
+		ADDED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:24:13-56
+	android:name
+		ADDED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:22:13-41
+activity#com.example.ozodjonamin.safiabusiness.ProductActivity
+ADDED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:25:9-28:59
+	android:label
+		ADDED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:27:13-59
+	android:theme
+		ADDED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:28:13-56
+	android:name
+		ADDED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:26:13-44
+activity#com.example.ozodjonamin.safiabusiness.CartActivity
+ADDED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:29:9-50
+	android:name
+		ADDED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:29:19-47
+activity#com.example.ozodjonamin.safiabusiness.FavouriteListActivity
+ADDED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:30:9-59
+	android:name
+		ADDED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:30:19-56
+activity#com.example.ozodjonamin.safiabusiness.SearchActivity
+ADDED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:31:9-52
+	android:name
+		ADDED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:31:19-49
+activity#com.example.ozodjonamin.safiabusiness.OrdersListActivity
+ADDED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:32:9-65
+	android:name
+		ADDED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml:32:19-53
+uses-sdk
+INJECTED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\68472aaaa6285d48626dabcfe66d6128\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\68472aaaa6285d48626dabcfe66d6128\AndroidManifest.xml:20:5-44
+MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\lib-1.0.2.aar\6cd4404cd968f5b3253f0ea0c0270e1d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\lib-1.0.2.aar\6cd4404cd968f5b3253f0ea0c0270e1d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.nex3z:notification-badge:1.0.2] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\notification-badge-1.0.2.aar\a27aebc6887f964cb3413374780bb492\AndroidManifest.xml:7:5-9:41
+MERGED from [com.nex3z:notification-badge:1.0.2] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\notification-badge-1.0.2.aar\a27aebc6887f964cb3413374780bb492\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.mancj:MaterialSearchBar:0.8.2] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\MaterialSearchBar-0.8.2.aar\4636772e31aa2ce52cc31dd45bd34231\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.mancj:MaterialSearchBar:0.8.2] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\MaterialSearchBar-0.8.2.aar\4636772e31aa2ce52cc31dd45bd34231\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.40.0.aar\8fdd304f0d84eaabbd781ed2f2fd4e59\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.40.0.aar\8fdd304f0d84eaabbd781ed2f2fd4e59\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-login-4.40.0.aar\739485f30cb6223faa6208486494c487\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-login-4.40.0.aar\739485f30cb6223faa6208486494c487\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-share-4.40.0.aar\8a3edd56b0bfc806b7dc369bcebf5296\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-share-4.40.0.aar\8a3edd56b0bfc806b7dc369bcebf5296\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-common-4.40.0.aar\56ee6431f1f9bed772aa1151f116b254\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-common-4.40.0.aar\56ee6431f1f9bed772aa1151f116b254\AndroidManifest.xml:24:5-26:41
+MERGED from [com.basgeekball:awesome-validation:2.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\awesome-validation-2.0.aar\e19fe608afcbe4d5f2d6291f7b31ec44\AndroidManifest.xml:7:5-9:41
+MERGED from [com.basgeekball:awesome-validation:2.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\awesome-validation-2.0.aar\e19fe608afcbe4d5f2d6291f7b31ec44\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.andremion:counterfab:1.0.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\counterfab-1.0.1.aar\eb75e41ce9eb11fa4715a3a33480bc76\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.andremion:counterfab:1.0.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\counterfab-1.0.1.aar\eb75e41ce9eb11fa4715a3a33480bc76\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:26.1.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\b84f5f18a639404b150e68ad592e5c22\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\b84f5f18a639404b150e68ad592e5c22\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\e17da74b5247e13da8f7067b3d0200f8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\e17da74b5247e13da8f7067b3d0200f8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\ab5ae84257819e181aba8835b137de4f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\ab5ae84257819e181aba8835b137de4f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.jakewharton:butterknife:8.6.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\butterknife-8.6.0.aar\b7c3f4f9a27890879c15c4c3b827a80d\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.6.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\butterknife-8.6.0.aar\b7c3f4f9a27890879c15c4c3b827a80d\AndroidManifest.xml:5:5-43
+MERGED from [com.facebook.stetho:stetho-okhttp3:1.5.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\stetho-okhttp3-1.5.0.aar\b834f110bfe026ce59528ea134c85512\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.stetho:stetho-okhttp3:1.5.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\stetho-okhttp3-1.5.0.aar\b834f110bfe026ce59528ea134c85512\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.stetho:stetho:1.5.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\stetho-1.5.0.aar\33237fd38f67e691fae57ecf3ee52485\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.stetho:stetho:1.5.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\stetho-1.5.0.aar\33237fd38f67e691fae57ecf3ee52485\AndroidManifest.xml:7:5-9:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\54c6d432471ef4999ae6cf67e47868de\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\54c6d432471ef4999ae6cf67e47868de\AndroidManifest.xml:19:5-43
+MERGED from [android.arch.persistence.room:rxjava2:1.1.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\rxjava2-1.1.0.aar\83a6569a753de107c3916b60c8ce7218\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:rxjava2:1.1.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\rxjava2-1.1.0.aar\83a6569a753de107c3916b60c8ce7218\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\efc785c6577dec01cad450f22d5686cd\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\efc785c6577dec01cad450f22d5686cd\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-places:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-places-4.40.0.aar\d3c943ef6b08e1fe5a71aa7dc32fcb2c\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-places:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-places-4.40.0.aar\d3c943ef6b08e1fe5a71aa7dc32fcb2c\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-applinks-4.40.0.aar\fbd3c6b83c6c5f30ea3f99464c8c6b2d\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-applinks-4.40.0.aar\fbd3c6b83c6c5f30ea3f99464c8c6b2d\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-messenger-4.40.0.aar\e06d371e440020a30bb748bce8f567df\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-messenger-4.40.0.aar\e06d371e440020a30bb748bce8f567df\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-marketing:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.40.0.aar\aab374272213b328515198d535ea1d43\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-marketing:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.40.0.aar\aab374272213b328515198d535ea1d43\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\889ce3a3f6184e675d954da25549289a\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\889ce3a3f6184e675d954da25549289a\AndroidManifest.xml:24:5-26:41
+MERGED from [android.arch.persistence:db-framework:1.1.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\db-framework-1.1.0.aar\42c0fd69e61aac1634325bb2aab85708\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\db-framework-1.1.0.aar\42c0fd69e61aac1634325bb2aab85708\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\db-1.1.0.aar\39b7ff8cab9450d6160632187f45d948\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\db-1.1.0.aar\39b7ff8cab9450d6160632187f45d948\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\9b8ca702e45fc557f26131f47809dcfa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\9b8ca702e45fc557f26131f47809dcfa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\9994f6a9ec69643509cbd82840e52d9d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\9994f6a9ec69643509cbd82840e52d9d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\5f13c1103a5c516c897a681d4266b5af\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\5f13c1103a5c516c897a681d4266b5af\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\55a8cf84c5418051366fd518adf038b7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\55a8cf84c5418051366fd518adf038b7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\2fdae794da2bbcc49ec540c77744092c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\2fdae794da2bbcc49ec540c77744092c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\b14152c010d618e88c272657f70aaa85\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\b14152c010d618e88c272657f70aaa85\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\b4973f8232192896c6ef2fd096e28f98\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\b4973f8232192896c6ef2fd096e28f98\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\c08db204d12be1b4c54d705279c234b6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\c08db204d12be1b4c54d705279c234b6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\3789b8261d569ad7487231eada6decd2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\3789b8261d569ad7487231eada6decd2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\25b1d044dbcf64f4d97402bdaf7ad6b5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\25b1d044dbcf64f4d97402bdaf7ad6b5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\4a92296c2994f155a3de4d27997b49d0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\4a92296c2994f155a3de4d27997b49d0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\635339b6c2572ec706dec6ee2167dd8a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\635339b6c2572ec706dec6ee2167dd8a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\88514fb0ee94e98474732acef3ce9f49\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\88514fb0ee94e98474732acef3ce9f49\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\1f726ed46db92d62f78b7361fefe821f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\1f726ed46db92d62f78b7361fefe821f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\c9b65042df16e0bae1bcc10dee636473\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\c9b65042df16e0bae1bcc10dee636473\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\b87ef6c9df588e3373c6dd3aaae4681c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\b87ef6c9df588e3373c6dd3aaae4681c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\6b62eff76853d9cfb589a4ac988fc003\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\6b62eff76853d9cfb589a4ac988fc003\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\27d3de943996e86d0a96a9cc92cd444a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\27d3de943996e86d0a96a9cc92cd444a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\d5b161fdadd99f02a11a163676b7d55e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\d5b161fdadd99f02a11a163676b7d55e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\b1315c9be6b9aa14283321c59793b8b8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\b1315c9be6b9aa14283321c59793b8b8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\be8e038645282ccc250e52efd6045575\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\be8e038645282ccc250e52efd6045575\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\66250ce73eca58ba1a2eb2e24babcb96\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\66250ce73eca58ba1a2eb2e24babcb96\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\5e57b7cdfc09417fb7f016baf8fd6131\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\5e57b7cdfc09417fb7f016baf8fd6131\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\cc0597db382e1d87e429a127deef3230\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\cc0597db382e1d87e429a127deef3230\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\99b7443f5547c46054b98cab91fb0f83\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\99b7443f5547c46054b98cab91fb0f83\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\7087c3e95e1aadabe5d6318667748944\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\7087c3e95e1aadabe5d6318667748944\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\ad8be6e4785efbf7aa797ee8a8069466\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\ad8be6e4785efbf7aa797ee8a8069466\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\adbdbee8206786b0aab8a4090e135469\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\adbdbee8206786b0aab8a4090e135469\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\0096957ad2ea0a82c5afd1f466583e11\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\0096957ad2ea0a82c5afd1f466583e11\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\aa8136f84db3dc9d45fe6b22023c9689\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\aa8136f84db3dc9d45fe6b22023c9689\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\1cdd421b8b972bf496ad8b99920c7837\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\1cdd421b8b972bf496ad8b99920c7837\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\b84f5f18a639404b150e68ad592e5c22\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\OzodjonAmin\AndroidStudioProjects\SafiaBusiness\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\68472aaaa6285d48626dabcfe66d6128\AndroidManifest.xml:23:5-80
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\68472aaaa6285d48626dabcfe66d6128\AndroidManifest.xml:23:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\68472aaaa6285d48626dabcfe66d6128\AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\68472aaaa6285d48626dabcfe66d6128\AndroidManifest.xml:24:22-78
+service#com.squareup.leakcanary.internal.HeapAnalyzerService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\68472aaaa6285d48626dabcfe66d6128\AndroidManifest.xml:27:9-30:45
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\68472aaaa6285d48626dabcfe66d6128\AndroidManifest.xml:30:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\68472aaaa6285d48626dabcfe66d6128\AndroidManifest.xml:29:13-36
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\68472aaaa6285d48626dabcfe66d6128\AndroidManifest.xml:28:13-80
+service#com.squareup.leakcanary.DisplayLeakService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\68472aaaa6285d48626dabcfe66d6128\AndroidManifest.xml:31:9-33:39
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\68472aaaa6285d48626dabcfe66d6128\AndroidManifest.xml:33:13-36
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\68472aaaa6285d48626dabcfe66d6128\AndroidManifest.xml:32:13-70
+activity#com.squareup.leakcanary.internal.DisplayLeakActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\68472aaaa6285d48626dabcfe66d6128\AndroidManifest.xml:35:9-47:20
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\68472aaaa6285d48626dabcfe66d6128\AndroidManifest.xml:37:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\68472aaaa6285d48626dabcfe66d6128\AndroidManifest.xml:39:13-71
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\68472aaaa6285d48626dabcfe66d6128\AndroidManifest.xml:38:13-54
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\68472aaaa6285d48626dabcfe66d6128\AndroidManifest.xml:41:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\68472aaaa6285d48626dabcfe66d6128\AndroidManifest.xml:40:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\68472aaaa6285d48626dabcfe66d6128\AndroidManifest.xml:36:13-80
+activity#com.squareup.leakcanary.internal.RequestStoragePermissionActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\68472aaaa6285d48626dabcfe66d6128\AndroidManifest.xml:48:9-54:68
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\68472aaaa6285d48626dabcfe66d6128\AndroidManifest.xml:50:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\68472aaaa6285d48626dabcfe66d6128\AndroidManifest.xml:52:13-82
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\68472aaaa6285d48626dabcfe66d6128\AndroidManifest.xml:51:13-54
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\68472aaaa6285d48626dabcfe66d6128\AndroidManifest.xml:54:13-65
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\68472aaaa6285d48626dabcfe66d6128\AndroidManifest.xml:53:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\68472aaaa6285d48626dabcfe66d6128\AndroidManifest.xml:49:13-93
+activity#com.facebook.FacebookActivity
+ADDED from [com.facebook.android:facebook-common:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-common-4.40.0.aar\56ee6431f1f9bed772aa1151f116b254\AndroidManifest.xml:29:9-32:66
+	android:configChanges
+		ADDED from [com.facebook.android:facebook-common:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-common-4.40.0.aar\56ee6431f1f9bed772aa1151f116b254\AndroidManifest.xml:31:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-common-4.40.0.aar\56ee6431f1f9bed772aa1151f116b254\AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-common-4.40.0.aar\56ee6431f1f9bed772aa1151f116b254\AndroidManifest.xml:30:13-57
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-common-4.40.0.aar\56ee6431f1f9bed772aa1151f116b254\AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-common-4.40.0.aar\56ee6431f1f9bed772aa1151f116b254\AndroidManifest.xml:33:19-68
+activity#com.facebook.CustomTabActivity
+ADDED from [com.facebook.android:facebook-common:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-common-4.40.0.aar\56ee6431f1f9bed772aa1151f116b254\AndroidManifest.xml:34:9-67
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-common-4.40.0.aar\56ee6431f1f9bed772aa1151f116b254\AndroidManifest.xml:34:19-64
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\b84f5f18a639404b150e68ad592e5c22\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\9b8ca702e45fc557f26131f47809dcfa\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\9b8ca702e45fc557f26131f47809dcfa\AndroidManifest.xml:23:9-25:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\b84f5f18a639404b150e68ad592e5c22\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\b84f5f18a639404b150e68ad592e5c22\AndroidManifest.xml:27:13-51
+provider#com.facebook.marketing.internal.MarketingInitProvider
+ADDED from [com.facebook.android:facebook-marketing:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.40.0.aar\aab374272213b328515198d535ea1d43\AndroidManifest.xml:29:9-32:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-marketing:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.40.0.aar\aab374272213b328515198d535ea1d43\AndroidManifest.xml:31:13-73
+	android:exported
+		ADDED from [com.facebook.android:facebook-marketing:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.40.0.aar\aab374272213b328515198d535ea1d43\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-marketing:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.40.0.aar\aab374272213b328515198d535ea1d43\AndroidManifest.xml:30:13-81
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\889ce3a3f6184e675d954da25549289a\AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\889ce3a3f6184e675d954da25549289a\AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\889ce3a3f6184e675d954da25549289a\AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\889ce3a3f6184e675d954da25549289a\AndroidManifest.xml:40:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\889ce3a3f6184e675d954da25549289a\AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\889ce3a3f6184e675d954da25549289a\AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\889ce3a3f6184e675d954da25549289a\AndroidManifest.xml:45:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\889ce3a3f6184e675d954da25549289a\AndroidManifest.xml:47:13-49:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\889ce3a3f6184e675d954da25549289a\AndroidManifest.xml:48:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\OzodjonAmin\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\889ce3a3f6184e675d954da25549289a\AndroidManifest.xml:48:25-92
